@@ -134,6 +134,18 @@ form button:hover {
 }
 
 /* About section */
+#about {
+    padding: 5px;
+    background-color: white;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+h2 {
+    text-align: center;
+    background-color: #3f7a55
+}
+
 .about-post {
     width: 100%;
     margin: 0 auto;
@@ -143,14 +155,12 @@ form button:hover {
 }
 
 .about-post img {
-    width: 500px;
-    height: auto;
-    display: block;
-    margin: 1rem 0;
+    width: 100%;
+    padding: 25px;
 }
 
 .about-post ul {
-    list-style-type: none;
+    list-style-type:circle
     padding-left: 1rem;
 }
 
