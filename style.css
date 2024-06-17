@@ -142,6 +142,10 @@ form button:hover {
     padding: 0;
 }
 
+.about-post p {
+    margin: 20px;
+}
+
 .about-post img {
     width: 500px;
     height: auto;
@@ -151,15 +155,17 @@ form button:hover {
 
 .about-post ul {
     list-style-type: disc;
-    padding-left: 1rem;
+    padding: 20px;
 }
 
 .about-post ul li {
+    list-style-type: circle;
     margin-bottom: 0.5rem;
 }
 
 .about-post ul ul {
-    padding-left: 1rem;
+    list-style-type: disc;
+    padding: 20px;
 }
 
 /* Media queries */
