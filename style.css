@@ -1,14 +1,171 @@
 
 
-body {
-    background-color: #f0ffff;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border-top: 10px solid #18453b;
-    margin: 1;
-    color: #000000;
+Resetting default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-main {
-    margin: 0 auto;
-    width: 800px;
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
 }
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Blog section */
+#blog {
+    padding: 2rem;
+    background-color: white;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.blog-post {
+    margin-bottom: 2rem;
+}
+
+.blog-post h3 {
+    color: #333;
+}
+
+.blog-post p {
+    line-height: 1.8;
+}
+
+.blog-post img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem 0;
+}
+
+/* Form section */
+form {
+    margin: 2rem auto;
+    max-width: 400px;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+form input[type="text"],
+form input[type="tel"],
+form select,
+form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 0.7rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+/* About section */
+.about-post {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.about-post img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem 0;
+}
+
+.about-post ul {
+    list-style-type: none;
+    padding-left: 1rem;
+}
+
+.about-post ul li {
+    margin-bottom: 0.5rem;
+}
+
+.about-post ul ul {
+    padding-left: 1rem;
+}
+
+/* Media queries */
+@media (min-width: 768px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav ul {
+        margin-top: 0;
+    }
+
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .about-post {
+        padding: 2rem;
+    }
+}
+
+
