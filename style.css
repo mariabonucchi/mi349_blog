@@ -58,6 +58,16 @@ nav ul li a:hover {
     max-width: 800px;
 }
 
+.blog-post h2 {
+    text-align: center;
+    background-color: #008934
+}
+
+.blog-post img{
+    width: 100%;
+    padding: 10px;
+}
+
 .blog-post {
     margin-bottom: 2rem;
 }
