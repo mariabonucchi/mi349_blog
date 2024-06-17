@@ -20,7 +20,7 @@ header {
     background-color: #18453B;
     color: white;
     padding: 1px;
-    text-align: center middle; 
+    text-align: center; 
 }
 
 header h1 {
@@ -63,7 +63,7 @@ h2 {
     background-color: #3f7a55
 }
 
-.blog-post img{
+img{
     width: 100%;
     padding: 25px;
 }
@@ -90,6 +90,7 @@ h2 {
     margin-left: auto;
     margin-right: auto;
 }
+
 
 /* Form section */
 form {
