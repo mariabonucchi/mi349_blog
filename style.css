@@ -1,6 +1,6 @@
 
 
-Resetting default browser styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -86,7 +86,6 @@ form {
     background-color: #fff;
     padding: 2rem;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 form label {
@@ -120,13 +119,13 @@ form button:hover {
 
 /* About section */
 .about-post {
-    max-width: 600px;
+    width: 100%;
     margin: 0 auto;
     padding: 1rem;
 }
 
 .about-post img {
-    max-width: 100%;
+    width: 500px;
     height: auto;
     display: block;
     margin: 1rem 0;
