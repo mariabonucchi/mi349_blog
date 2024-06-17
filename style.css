@@ -69,7 +69,7 @@ nav ul li a:hover {
 }
 
 .blog-post {
-    margin-bottom: 5px;
+    margin-bottom: 20px;
 }
 
 .blog-post h3 {
@@ -82,8 +82,7 @@ nav ul li a:hover {
 
 .blog-post img {
     width: 100%;
-    display: block;
-    margin: 10px;
+    padding: 25px;
 }
 
 .blog-post table{
@@ -178,5 +177,7 @@ form button:hover {
         padding: 2rem;
     }
 }
+
+
 
 
