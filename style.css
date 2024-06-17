@@ -56,6 +56,8 @@ nav ul li a:hover {
     background-color: white;
     margin: 20px auto;
     max-width: 800px;
+    text-align: center;
+    background-color: #008934
 }
 
 .blog h2 {
