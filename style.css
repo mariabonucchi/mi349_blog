@@ -69,7 +69,7 @@ nav ul li a:hover {
 }
 
 .blog-post {
-    margin-bottom: 2rem;
+    margin-bottom: 5px;
 }
 
 .blog-post h3 {
@@ -77,14 +77,18 @@ nav ul li a:hover {
 }
 
 .blog-post p {
-    line-height: 1.8;
+    line-height: 2;
 }
 
 .blog-post img {
-    max-width: 100%;
-    height: auto;
+    width: 100%;
     display: block;
-    margin: 1rem 0;
+    margin: 10px;
+}
+
+.blog-post table{
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Form section */
