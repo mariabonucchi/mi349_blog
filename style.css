@@ -52,13 +52,13 @@ nav ul li a:hover {
 
 /* Blog section */
 #blog {
-    padding: 2rem;
+    padding: 5px;
     background-color: white;
     margin: 20px auto;
     max-width: 800px;
 }
 
-.blog-post h2 {
+.blog h2 {
     text-align: center;
     background-color: #008934
 }
