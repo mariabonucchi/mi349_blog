@@ -143,12 +143,14 @@ form button:hover {
 }
 
 .about-post img {
-    width: 100%;
-    padding: 25px;
+    width: 500px;
+    height: auto;
+    display: block;
+    margin: 1rem 0;
 }
 
 .about-post ul {
-    list-style-type:circle
+    list-style-type: disc;
     padding-left: 1rem;
 }
 
