@@ -143,14 +143,14 @@ form button:hover {
 }
 
 .about-post p {
-    margin: 5 20 5 20 ;
+    margin: 20px auto;
 }
 
 .about-post img {
     width: 500px;
     height: auto;
     display: block;
-    margin: 1rem 0;
+    margin: 20px auto;
 }
 
 .about-post ul {
